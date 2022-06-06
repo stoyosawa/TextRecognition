@@ -1,6 +1,6 @@
 ## README
 
-The Tensorflow/Keras scripts recognize handwritten numbers (0 to 9). `E_2_1.py` is for DNN training using the MNIST handwritten datasets. `E_2_2.py` is a user proguram that performs actual recognitions. They were first implemented for Section E.2 手書き数字推定モデル in [実践OpenCV 4 for Python 画像映像情報処理と機械学習](https://www.cutt.co.jp/book/978-4-87783-460-9.html). The codes here are updates to the initial version for Tensorflow/Keras 2.3.1. The functions became deprecated since them, so here it is, updated for version 2.9.1.
+The Tensorflow/Keras scripts in this directory recognize handwritten numbers (0 to 9). `E_2_1.py` is for DNN training: It uses the MNIST handwritten datasets. `E_2_2.py` is a user proguram that performs actual recognitions. They were first implemented for Section E.2 手書き数字推定モデル in [実践OpenCV 4 for Python 画像映像情報処理と機械学習](https://www.cutt.co.jp/book/978-4-87783-460-9.html). The codes here are updates to the initial version for Tensorflow/Keras 2.3.1. The functions became deprecated since them, so here it is, updated for version 2.9.1.
 
 手書き数字を認識するTensorflow/Kerasスクリプト（2本）です。`E_2_1.py`はMNISTの手書き数字データセットを用いてDNNを訓練するためのもので、`E_2_2.py`は生成された訓練データをもとに手書き数字を認識するユーザプログラムです。もともとは[実践OpenCV 4 for Python 画像映像情報処理と機械学習](https://www.cutt.co.jp/book/978-4-87783-460-9.html)の付録E.2「手書き数字推定モデル」に掲載したスクリプトです。出版時にはTensorflow 2.3.1対応でしたが、それからAPIに変更があったので改定しています。Tensorflow/Keras 2.9.1で動作確認をしています。
 
