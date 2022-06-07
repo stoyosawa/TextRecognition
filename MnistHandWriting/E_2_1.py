@@ -9,7 +9,7 @@ import cv2
 import numpy as np
 import tensorflow as tf
 from tensorflow.keras.datasets import mnist
-from tensorflow.keras.models import Sequential
+from tensorflow.keras import Sequential
 from tensorflow.keras.layers import Conv2D, MaxPooling2D, Dropout
 from tensorflow.keras.layers import Flatten, Dense
 from tensorflow.keras.optimizers import RMSprop

@@ -39,5 +39,3 @@ if __name__ == '__main__':
 
     print('TF:\n', categorical_by_tf(a))
     print('Me:\n', categorical_by_hand(a))
-
-
