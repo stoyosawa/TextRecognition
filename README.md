@@ -1,4 +1,4 @@
-<a href="./README.jp.md"><img src="https://www.worldometers.info/img/flags/ja-flag.gif" width="50"></img></a>日本語版READMEはこちら
+<a href="./README.jp.md"><img src="https://www.worldometers.info/img/flags/ja-flag.gif" width="50"></img></a> 日本語版READMEはこちら
 
 ## README
 

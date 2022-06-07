@@ -1,6 +1,6 @@
-## README
+<a href="./README.jp.md"><img src="https://www.worldometers.info/img/flags/ja-flag.gif" width="50"></img></a> 日本語版READMEはこちら
 
-<a style="float: right;" href="./README.jp.md"><img src="https://www.worldometers.info/img/flags/ja-flag.gif" width="50">日本語版</a>
+## README
 
 The Tensorflow/Keras scripts in this directory recognize handwritten digits (0 to 9).　They use the 60,000 sets of training data and 10,000 sets of test data from [THE MNIST (Modified NIST) DATABASE of handwritten digits](http://yann.lecun.com/exdb/mnist/).
 
@@ -54,10 +54,10 @@ Test-reads the MNIST dataset file (numpy zip file) and parses it. It then random
 
 ```
 C:\temp>python nist_data.py
-x_test: (10000, 28, 28)                                  # 28x28の画像が10,000個
-x_train: (60000, 28, 28)                                 # 28x28の画像が60,000個
-y_train: (60000,)                                        # 数値60,000個
-y_test: (10000,)                                         # 数値10,000個
+x_test: (10000, 28, 28)                                  # 10,000 28x28 images
+x_train: (60000, 28, 28)                                 # 60,000 28x28 images
+y_train: (60000,)                                        # 60,000 digits (0-9)
+y_test: (10000,)                                         # 10,000 digits (0-9)
 ```
 
 #### [eval_model.py](./eval_model.py)
