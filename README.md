@@ -1,6 +1,6 @@
 ## README
 
-<a style="float: right;" href="./README.jp.md"><img src="https://www.worldometers.info/img/flags/ja-flag.gif" width="50"></img>日本語版</a>
+<a href="./README.jp.md"><img src="https://www.worldometers.info/img/flags/ja-flag.gif" width="50"></img>日本語版</a>
 
 This repository contains text-recognition scripts. They are updates/revisions of the codes described in the following books:
 
