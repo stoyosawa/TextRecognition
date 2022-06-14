@@ -66,7 +66,7 @@ net = cv2.dnn.readNet('Model/frozen_east_text_detection.pb')
 # Create blob (4 dimensional) from the input.
 blob = cv2.dnn.blobFromImage(
     img_resized,                                         # input
-    mean=(123.68, 116,78, 103.94),                       # Subtract the average luminance of the training data. In order of RGB (not BGR).
+    mean=(123.68, 116.78, 103.94),                       # Subtract the average luminance of the training data. In order of RGB (not BGR).
     swapRB=True,                                         # Input BGR (OpenCV) image should be converted to RGB (Tensorflow).
     crop=False                                           # Cropped?
 )
