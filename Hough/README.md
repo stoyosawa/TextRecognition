@@ -10,7 +10,7 @@
 - Morphing (closing) for additional noise reduction (`cv2.morphologyEx()`)
 - Canny edge detection (`cv2.Canny()`)
 
-`cv2.HoughLinesP()` detects any lines irrespective of the directions. The scripts filters the lines that have 20 degree (measured from the horizontal axes) and more. The '20 degree' was chosen ad-hoc: You may need to tweak Line 26.
+`cv2.HoughLinesP()` detects any lines irrespective of the directions. The scripts filters the lines that are angled 20 degree (measured from the horizontal axes) or more. The '20 degree' was chosen ad-hoc: You may need to tweak Line 26.
 
 Run the script with the target file. On the console (command prompt), you will see the number of detected horizontal lines and its average (along with the standard deviation) in degree (not radian).
 
@@ -19,7 +19,7 @@ C:\temp>python hough.py ..\..\Images\test.png
 Found 88 horizontal lines. -3.462 ± 1.191 deg
 ```
 
-Three images are displayed: Original input, blob (the image after preprocessing) and the one rotated.
+Three images are displayed: Original input, blob (the image after preprocessing) and the one rotated. On the rotated image, the red lines show positive, the blue lines show negative lines respectively.
 
 Hit any key to quit.
 

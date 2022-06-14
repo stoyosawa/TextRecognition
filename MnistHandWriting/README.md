@@ -4,12 +4,14 @@
 
 The Tensorflow/Keras scripts in this directory recognize handwritten digits (0 to 9).　They use the 60,000 sets of training data and 10,000 sets of test data from [THE MNIST (Modified NIST) DATABASE of handwritten digits](http://yann.lecun.com/exdb/mnist/).
 
-Tested on Tensorflow 2.9.1. The
+Tested on Tensorflow 2.9.1.
 
 
 #### [E_2_1.py](./E_2_1.py)
 
-Download the MNIST dataset, a construct Neural-Network model, and train the model using the dataset. The data is automatically downloaded and saved as `$HOME/.keras/mnist.npz` (numpy zip file).
+The script downloads the MNIST dataset from the net, constructs Neural-Network model, and trains the model using the dataset.
+
+The data is automatically downloaded upon the first run, and saved as `$HOME/.keras/mnist.npz` (numpy zip file): Subsequent calls use the saved file.
 
 The model is shown below:
 
@@ -37,7 +39,7 @@ The constructed model (architecture) and weights are saved under the `./mnist_mo
 
 #### [E_2_2.py](./E_2_2.py)
 
-A handwritten digits recognition script. Just draw strokes on the 300x300 window using your mouse (left-button press), then hit `Enter`. The predicted number is shown in the top-left region. The number and its probability are shown on the console (command prompt). Enter `ESC` to clear the window. `Q` to quit.
+A handwritten digits recognition script. Draw strokes on the 300x300 window using your mouse (left-button press), then hit `Enter`. The predicted number is shown in the top-left region. The number and its probability are shown on the console (command prompt). Enter `ESC` to clear the window. `Q` to quit.
 
 <img src="./images/sample.png" width=150></img>
 
@@ -50,7 +52,7 @@ Found 3. Probability 1.0000
 
 #### [nist_data.py](./nist_data.py)
 
-Test-reads the MNIST dataset file (numpy zip file) and parses it. It then randomly shows 10 images and its associated number on the window. The data is from the test (`x_test` and `y_test`). As the script outputs, the MNIST file contains 60,000 training data and 10,000 test data. The image size is 28x28.
+Test-reads and parses the MNIST dataset file (numpy zip file). The script then randomly shows 10 images and its associated number on the window. The data is from the test (`x_test` and `y_test`). As shown below, the MNIST file contains 60,000 training data and 10,000 test data. The image size is 28x28.
 
 ```
 C:\temp>python nist_data.py
@@ -62,7 +64,7 @@ y_test: (10000,)                                         # 10,000 digits (0-9)
 
 #### [eval_model.py](./eval_model.py)
 
-A script to check the accuracy of the model (from `E_2_1.py`). It tries all the 10,000 data from `x_test` and `y_test`. It may take long.
+The script checks the accuracy of the model (from `E_2_1.py`). It tries all the 10,000 data from `x_test` and `y_test`. It may take long.
 
 ```
 C:\temp>python eval_model.py
@@ -75,7 +77,7 @@ Tested with 10000 samples. Hit rate: 0.989.
 
 #### [test_model.py](./test_model.py)
 
-Another test. It randomly picks the test data and feeds it to the model. The target image is shown on the window, and the results are shown on the console. Press ESC to quit. Use any other key to continue the test.
+Another test. It randomly picks the test data and feeds it to the model. The target image is shown on the window, and the results are shown on the console. Press `ESC` to quit. Use any other key to continue the test.
 
 ```
 C:\temp>python test_model.py

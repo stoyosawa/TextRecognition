@@ -6,7 +6,7 @@ This repository contains text-recognition scripts. They are updates/revisions of
 
 - Nagata and Toyosawa: [実践OpenCV 4 for Python 画像映像情報処理と機械学習](https://www.cutt.co.jp/book/978-4-87783-460-9.html), Cutt System, Jan 2021.
 - Nagata and Toyosawa: [実践OpenCV 3 for C++ 画像映像情報処理](https://www.cutt.co.jp/book/978-4-87783-380-0.html), Cutt System, Sep 2017.
-- Kuwaim Toyosawa and Nagata: [実践OpenCV 2.4 for Pythonー映像処理&解析](https://www.cutt.co.jp/book/978-4-87783-346-6.html), Cutt System, Jul 2014.
+- Kuwai, Toyosawa and Nagata: [実践OpenCV 2.4 for Pythonー映像処理&解析](https://www.cutt.co.jp/book/978-4-87783-346-6.html), Cutt System, Jul 2014.
 
 
 ### Table of contents

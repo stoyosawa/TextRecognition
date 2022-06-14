@@ -1,6 +1,6 @@
 ## README
 
-[実践OpenCV 4 for Python 画像映像情報処理と機械学習](https://www.cutt.co.jp/book/978-4-87783-460-9.html)の付録E.2「手書き数字推定モデル」に掲載したTensorflow/Kerasスクリプトの改訂版です。出版時にTensorflow 2.3.1対応であったものを、APIの変更に伴い改定しました。2.9.1で動作確認しています。
+[実践OpenCV 4 for Python 画像映像情報処理と機械学習](https://www.cutt.co.jp/book/978-4-87783-460-9.html)（2021年刊）の付録E.2「手書き数字推定モデル」に掲載したTensorflow/Kerasスクリプトの改訂版です。出版時にTensorflow 2.3.1対応であったものを、APIの変更に伴い改定しました。2.9.1で動作確認しています。
 
 手書き数字の訓練およびテストには、[NIST](https://www.nist.gov/srd/nist-special-database-19)（National Institute of Standards and Technology）のデータセットを用います。
 

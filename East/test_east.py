@@ -78,7 +78,7 @@ outputLayers = []
 outputLayers.append("feature_fusion/Conv_7/Sigmoid")
 outputLayers.append("feature_fusion/concat_3")
 
-# Do the job
+# Add the layers
 net.setInput(blob)
 
 # The model returns a tuple with two elements.
