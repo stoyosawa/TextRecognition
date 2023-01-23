@@ -8,7 +8,7 @@
 
 ご購入はこちらから。
 
-<table border=0>
+<table style="border_style: none">
  <tr>
   <td><img src="https://www.cutt.co.jp/book/images/978-4-87783-460-9.png" height="200"></img></td>
   <td><img src="https://www.cutt.co.jp/book/images/978-4-87783-380-0.png" height="200"></img></td>
